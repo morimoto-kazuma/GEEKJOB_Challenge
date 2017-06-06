@@ -31,9 +31,9 @@ public class challenge1Servlet extends HttpServlet {
  // サーブレットクラス内
 // 自己紹介を表示するメソッド
 void myprofile(PrintWriter pw) {
-    pw.print("私の名前は林です<br>");
-    pw.print("好きな音楽はジャズ<br>");
-    pw.print("趣味はゲームと旅行です<br>");
+    pw.print("私の名前は森本です<br>");
+    pw.print("好きな食べ物は肉とエビです<br>");
+    pw.print("趣味はゲームとアニメと海外映画や海外ドラマとパチンコです<br>");
     pw.print("<br>");
 }
     
