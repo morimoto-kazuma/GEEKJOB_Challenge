@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author PCUser
  */
-public class challenge1Servlet extends HttpServlet {
+public class Servlet2 extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -27,9 +27,6 @@ public class challenge1Servlet extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    
- // サーブレットクラス内
-// 自己紹介を表示するメソッド
 void myprofile(PrintWriter pw) {
     pw.print("私の名前は森本です<br>");
     pw.print("好きな食べ物は肉とエビです<br>");
@@ -45,19 +42,15 @@ void myprofile(PrintWriter pw) {
 for (int i = 0; i < 10; i++) {
    myprofile(out);
 }
-    // ユーザー定義関数の呼び出し
-   
-
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet challenge1Servlet</title>");            
+            out.println("<title>Servlet Servlet2</title>");            
             out.println("</head>");
             out.println("<body>");
+            out.println("<h1>Servlet Servlet2 at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
-            
-            
         }
     }
 
